@@ -1,0 +1,248 @@
+ /**{
+padding: 0;
+margin: 0;
+} */
+
+*{
+    scroll-behavior: smooth;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.89);
+    padding: 1px 2px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+    gap: 6.9%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a{
+    box-sizing: border-box;
+    color: white;
+    text-transform: uppercase;
+    font-family:"Open Sans",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+} 
+
+nav ul li a:hover{
+    cursor: pointer;
+    color: burlywood;
+}
+
+.image-section{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/intro-bg.jpg");
+    background-size: 100% 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-section h1{
+    font-family: "Rochester",cursive;
+    font-size: 140px;
+    font-weight: 400;
+    color: white;
+}
+
+.image-section h4{
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+
+#our-specials h2{
+    text-align: center;
+    font-family:"Raleway",sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    text-transform: uppercase;
+    margin: 8% 0 5% 0;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 0 7%;
+}
+
+.card h3,p{
+    text-align: center;
+}
+
+.card h3{
+    font-family:"Raleway",sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.card p{
+    font-family:"Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.card img{
+    width:150%;
+}
+
+#ourStory{
+    margin: 8% 0 5% 0;
+    display: flex;
+    width: 100%;
+}
+
+.image{
+    width: 50%;
+}
+
+.image img{
+    width:100%
+}
+
+.para{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 2% 15%;
+}
+
+.para p{
+    font-family:"Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color:
+    RGB(128, 128, 128);
+}
+
+.para h2{
+    text-transform: capitalize;
+    text-align: center;
+    font-family:"Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+}
+
+#menu{
+    width: 100%;
+    margin-top: 10%;
+}
+#menu h2{
+    text-decoration: underline;
+    margin-bottom: 10%;
+}
+.images{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.images img{
+
+    width: 25%;
+}
+
+#meetourchef{
+    display: flex;
+    width: 100%;
+    margin-top: 10%;
+}
+.parag h2{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    
+}
+.parag{
+    width: 50%;
+    box-sizing: border-box;
+}
+.parag p{
+    padding: 0 30%;
+    text-align: start;
+}
+
+.imgsection{
+    width: 35%;
+}
+
+#grayfooter{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(49, 48, 48);
+}
+
+ .details h4{
+    text-transform: uppercase;
+    text-align: center;
+} 
+
+ .details{
+    display: flex;
+    color:white;
+    margin: 10% 0;
+    width: 100%;
+    justify-content: space-evenly;
+} 
+
+.contact input{
+    background-color: rgb(79, 77, 77);
+    color: aliceblue;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.message textarea{
+    background-color: rgb(82, 79, 79);
+    color: aliceblue;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10% 0;
+} 
+.message button{
+    color: aliceblue;
+    margin-top:  10%;
+    border: 2px solid gray;
+    background-color: rgb(49, 48, 48);
+    padding: 4%;
+}
+
+.message button:hover{
+    cursor: pointer;
+    background-color: rgb(33, 33, 33);
+}
+
+.blackfooter{
+    padding: 1% 0;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
