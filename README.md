@@ -12,24 +12,14 @@ Welcome to the BBQ Restaurant Web Page project! This project was developed as pa
 
 - HTML
 - CSS
-- Flask
-- Python
 
 ## How to Run
 
 To run this project locally, follow these steps:
 
-1. Clone this repository to your local machine using `git clone`.
-2. Navigate to the project directory.
-3. Install Flask if you haven't already: `pip install flask`.
-4. Run the Flask application: `flask run`.
-5. Open your web browser and go to `http://localhost:5000` to view the BBQ restaurant web page.
+1. Open the `index.html` file in your web browser.
+2. Now you can see the restaurant, showcasing their menu, location, and contact information.
 
-
-## Credits
-
-- **Flask**: [Flask Documentation](https://flask.palletsprojects.com/)
-- **Google Maps Embed API**: [Google Maps Embed API Documentation](https://developers.google.com/maps/documentation/embed)
 
 ## License
 
