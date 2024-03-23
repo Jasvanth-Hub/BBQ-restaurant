@@ -22,12 +22,9 @@ To run this project locally, follow these steps:
 1. Clone this repository to your local machine using `git clone`.
 2. Navigate to the project directory.
 3. Install Flask if you haven't already: `pip install flask`.
-4. Run the Flask application: `python app.py`.
+4. Run the Flask application: `flask run`.
 5. Open your web browser and go to `http://localhost:5000` to view the BBQ restaurant web page.
 
-## Screenshots
-
-![Screenshot of BBQ Restaurant Web Page](/screenshots/screenshot1.png)
 
 ## Credits
 
